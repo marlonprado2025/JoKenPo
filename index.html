@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles.css">
+    <title>Game JoKenPô</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Pedra, Papel ou Tesoura?</h1>
+
+                    <div class="buttons">
+                        <button id="pedra" onclick="playHuman('pedra')"> &#9994;</button>
+                        <button id="papel" onclick="playHuman('papel')">&#128400;</button>
+                        <button id="tesoura" onclick="playHuman('tesoura')">&#9996;</button>
+                    </div>
+
+        <p class="result" id="resultado"></p>
+
+        <P class="Myscore"> Sua pontuação:<span id="Mypontos">  0</span></P>
+        <P class="MachineScore"> Computador:<span id="MachinePontos">  0</span></P>
+
+    </div>
+
+
+</body>
+<script src="./Scripts.js"></script>
+
+</html>
